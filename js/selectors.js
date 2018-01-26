@@ -1,15 +1,15 @@
 function paragraphSelector() {
-  $('p')
+  return $('p')
 }
 
 function lastImageSelector() {
-  $('#baby-ninja')
+  return $('#baby-ninja')
 }
 
 function divSelector() {
-  $('div .pics')
+  return $('div .pics')
 }
 
 function firstListItem() {
-  $('ul li #pic-list:first-child')
+  return $('ul li #pic-list:first-child')
 }
